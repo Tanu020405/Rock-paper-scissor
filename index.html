@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissor Game</title>
+    <style>
+        body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    </style>
     
 </head>
 <body>
@@ -30,7 +46,7 @@
         </div>
         <div class="score" >
             <p id="comp-score">0</p>
-            <p>comp</p>
+            <p>Computer</p>
         </div>
     </div>
 
